@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    height: 400vh;
+}
+
+header {
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+header h1 {
+    color: transparent;
+}
+
+header.roll {
+    background-color: #ffff;
+    padding: 20px 4%;
+}
+
+header.roll h1 {
+    color: #2a6dd1;
+}
+
+header i {
+    font-size: 50px;
+    color: #2a6dd1;
+}
+
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-contato button {
+    width: 150px;
+    height: 40px;
+    border: 0;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: #2a6dd1;
+    transition: .2s;
+}
+
+.banners {
+    background-image: url(/images/20d0ca11-2e7b-45ed-8781-43a2b5383f47\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+}
+
+.baixo {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.msgbox {
+    width: 120vh;
+    border-radius: 10px;
+    padding: 60px 4%;
+    background-color: #2a6dd1;
+}
+
+.msgbox h1 {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #ffff;
+}
+
+.planos {
+    display: flex;
+    justify-content: center;
+}
+
+.msgplanos {
+    display: flex;
+    justify-content: space-around;
+    width: 100vh;
+}
+
+.msgplanos ul li {
+    color: #ffff;
+    text-align: left;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.msgplanos i {
+    font-size: 25px;
+    color: rgb(86, 255, 86);
+}
+
+.basic {
+    background-color: #2a6dd1;
+    padding: 30px;
+    height: 500px;
+    width: 450px;
+    border-radius: 35px;
+    margin: 20px;
+}
+
+.basic h1 {
+    color: #ffff;
+    font-size: 35px;
+    text-align: center;
+    padding: 15px;
+}
+
+.basic h2 {
+    color: #ffff;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 150px;
+}
+
+.advanced {
+    background-color: #2a6dd1;
+    padding: 30px;
+    height: 500px;
+    width: 450px;
+    border-radius: 35px;
+    margin: 20px;
+}
+
+.advanced h1 {
+    color: #ffff;
+    font-size: 35px;
+    text-align: center;
+    padding: 15px;
+}
+
+.advanced h2 {
+    color: #ffff;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 62px;
+}
+
+.advanced .online {
+    text-decoration: underline;
+}
